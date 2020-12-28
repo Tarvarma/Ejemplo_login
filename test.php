@@ -16,6 +16,8 @@ session_start();
 	?>
 	</h3>
 
+	<!-- Al pulsar llama al archivo close.php que destruye la sesión
+		 Falta agregar estilo a este botón -->
     <a href="close.php" style="text-align:center;" ><button>Cerrar sesión</button></a>
 </body>
 </html>
